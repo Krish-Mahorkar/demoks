@@ -9,5 +9,17 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'prac2c';
+  title = 'Registration Form';
+  dispname='';
+  dispaddress='';
+  dispcontact='';
+  dispemail='';
+
+  getvalue(name:string,address:string,contact:string,email:string)
+  {
+    this.dispname=name;
+    this.dispaddress=address;
+    this.dispcontact=contact;
+    this.dispemail=email;
+  }
 }

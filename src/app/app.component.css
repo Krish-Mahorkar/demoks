@@ -1,0 +1,21 @@
+input{
+    width: 400px;
+    height: 25px;
+    margin: 10px;
+    padding: 5px;
+}
+button
+{
+    width: 150px;
+    height: 40px;
+    margin: 12px;
+    padding: 10px;
+    color: azure;
+    background-color: blueviolet;
+}
+hl{
+    margin: 8px;
+}
+p{
+    margin: 8px;
+}
